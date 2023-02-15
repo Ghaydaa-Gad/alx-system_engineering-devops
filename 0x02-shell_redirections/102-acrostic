@@ -1,2 +1,2 @@
 #!/bin/bash 
-awk '{print $1}'n\ Acrostic 
+echo -en $(cut -d' ' -f1 '\n')'\n' 
